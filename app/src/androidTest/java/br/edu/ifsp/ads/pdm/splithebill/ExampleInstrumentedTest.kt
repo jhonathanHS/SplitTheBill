@@ -1,4 +1,4 @@
-package br.edu.ifsp.ads.pdm.mycontacts
+package br.edu.ifsp.ads.pdm.splithebill
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

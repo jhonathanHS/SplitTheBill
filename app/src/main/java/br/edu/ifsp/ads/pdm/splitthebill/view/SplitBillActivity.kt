@@ -1,12 +1,12 @@
-package br.edu.ifsp.ads.pdm.mycontacts.view
+package br.edu.ifsp.ads.pdm.splitthebill.view
 
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import br.edu.ifsp.ads.pdm.mycontacts.adapter.PersonAdapter
-import br.edu.ifsp.ads.pdm.mycontacts.databinding.ActivitySplitBinding
-import br.edu.ifsp.ads.pdm.mycontacts.model.Constant.PERSONS
-import br.edu.ifsp.ads.pdm.mycontacts.model.Person
+import br.edu.ifsp.ads.pdm.splitthebill.adapter.PersonAdapter
+import br.edu.ifsp.ads.pdm.splitthebill.databinding.ActivitySplitBinding
+import br.edu.ifsp.ads.pdm.splitthebill.model.Constant.PERSONS
+import br.edu.ifsp.ads.pdm.splitthebill.model.Person
 
 class SplitBillActivity : AppCompatActivity() {
     private val asb: ActivitySplitBinding by lazy {

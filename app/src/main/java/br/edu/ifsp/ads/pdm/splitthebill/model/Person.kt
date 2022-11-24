@@ -1,4 +1,4 @@
-package br.edu.ifsp.ads.pdm.mycontacts.model
+package br.edu.ifsp.ads.pdm.splitthebill.model
 
 import android.os.Parcelable
 import androidx.annotation.NonNull

@@ -1,4 +1,4 @@
-package br.edu.ifsp.ads.pdm.mycontacts
+package br.edu.ifsp.ads.pdm.splitthebill
 
 import org.junit.Test
 

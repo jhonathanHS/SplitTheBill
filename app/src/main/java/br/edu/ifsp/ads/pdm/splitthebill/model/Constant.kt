@@ -1,4 +1,4 @@
-package br.edu.ifsp.ads.pdm.mycontacts.model
+package br.edu.ifsp.ads.pdm.splitthebill.model
 
 object Constant {
     const val PERSONS = "PERSONS"

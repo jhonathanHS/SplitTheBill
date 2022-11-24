@@ -1,13 +1,13 @@
-package br.edu.ifsp.ads.pdm.mycontacts.view
+package br.edu.ifsp.ads.pdm.splitthebill.view
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import br.edu.ifsp.ads.pdm.mycontacts.databinding.ActivityPersonBinding
-import br.edu.ifsp.ads.pdm.mycontacts.model.Constant.EXTRA_PERSON
-import br.edu.ifsp.ads.pdm.mycontacts.model.Constant.VIEW_PERSON
-import br.edu.ifsp.ads.pdm.mycontacts.model.Person
+import br.edu.ifsp.ads.pdm.splitthebill.databinding.ActivityPersonBinding
+import br.edu.ifsp.ads.pdm.splitthebill.model.Constant.EXTRA_PERSON
+import br.edu.ifsp.ads.pdm.splitthebill.model.Constant.VIEW_PERSON
+import br.edu.ifsp.ads.pdm.splitthebill.model.Person
 
 class PersonActivity : AppCompatActivity() {
     private val apb: ActivityPersonBinding by lazy {

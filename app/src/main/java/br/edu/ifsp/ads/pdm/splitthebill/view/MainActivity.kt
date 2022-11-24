@@ -1,4 +1,4 @@
-package br.edu.ifsp.ads.pdm.mycontacts.view
+package br.edu.ifsp.ads.pdm.splitthebill.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,17 +7,16 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.AdapterView
-import android.widget.AdapterView.AdapterContextMenuInfo
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import br.edu.ifsp.ads.pdm.mycontacts.R
-import br.edu.ifsp.ads.pdm.mycontacts.adapter.PersonAdapter
-import br.edu.ifsp.ads.pdm.mycontacts.databinding.ActivityMainBinding
-import br.edu.ifsp.ads.pdm.mycontacts.model.Constant.EXTRA_PERSON
-import br.edu.ifsp.ads.pdm.mycontacts.model.Constant.PERSONS
-import br.edu.ifsp.ads.pdm.mycontacts.model.Constant.VIEW_PERSON
-import br.edu.ifsp.ads.pdm.mycontacts.model.Person
+import br.edu.ifsp.ads.pdm.splitthebill.R
+import br.edu.ifsp.ads.pdm.splitthebill.adapter.PersonAdapter
+import br.edu.ifsp.ads.pdm.splitthebill.databinding.ActivityMainBinding
+import br.edu.ifsp.ads.pdm.splitthebill.model.Constant.EXTRA_PERSON
+import br.edu.ifsp.ads.pdm.splitthebill.model.Constant.PERSONS
+import br.edu.ifsp.ads.pdm.splitthebill.model.Constant.VIEW_PERSON
+import br.edu.ifsp.ads.pdm.splitthebill.model.Person
 
 class MainActivity : AppCompatActivity() {
     private val amb: ActivityMainBinding by lazy {

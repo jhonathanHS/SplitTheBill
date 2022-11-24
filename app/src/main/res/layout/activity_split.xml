@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/splitLv"
-    tools:context=".view.SplitBillActivity" />
+    tools:context="br.edu.ifsp.ads.pdm.splitthebill.view.SplitBillActivity" />
 
 
 
